@@ -1,0 +1,9 @@
+INSERT INTO USUARIO (NOME, EMAIL, SENHA) VALUES ('Aluno', 'aluno@email.com', '$2a$10$LtXgjmk/Lg.NQ/TNT67yo.4kTwnuPbWm3pgIiQ8ZkVzD8YiidmbFy');
+
+INSERT INTO CURSO (nome, categoria) values ('Spring Boot', 'Programação');
+INSERT INTO CURSO (nome, categoria) values ('HTML 5', 'Front-end');
+
+INSERT INTO TOPICO (TITULO, MENSAGEM, DATA_CRIACAO, STATUS, AUTOR_ID, CURSO_ID) VALUES ('Dúvida', 'Erro ao criar projeto', '2019-08-14 15:00:00', 'NAO_RESPONDIDO', '1', '1');
+INSERT INTO TOPICO (TITULO, MENSAGEM, DATA_CRIACAO, STATUS, AUTOR_ID, CURSO_ID) VALUES ('Dúvida 2', 'Projeto nao compila', '2019-08-14 15:00:00', 'NAO_RESPONDIDO', '1', '1');
+INSERT INTO TOPICO (TITULO, MENSAGEM, DATA_CRIACAO, STATUS, AUTOR_ID, CURSO_ID) VALUES ('Dúvida 3', 'Tag HTML', '2019-08-14 15:00:00', 'NAO_RESPONDIDO', '1', '2');
+
